@@ -7,13 +7,12 @@
 
 ## Как начать работу с проектом
 
-Основной путь — fork этого шаблона (инструкция [тут](https://docs.github.com/ru/pull-requests/how-tos/work-with-forks/fork-a-repo)).
+1. Сделайте fork к себе на GitHub (инструкция [тут](https://docs.github.com/ru/pull-requests/how-tos/work-with-forks/fork-a-repo)).
+2. Склонируйте свой fork: в IDEA тыкаете New → Project from Version Control (транспортный URL вашего форка).
+3. После того как IDEA склонировала и проиндексировала ваш проект можно приступать к работе!
 
-1. Сделайте fork к себе на GitHub.
-2. Склонируйте свой fork: в IDEA тыкаете New → Project from Version Control (URL вашего форка).
-3. IDEA скачивает и индексирует проект; после завершения индексации можно приступать к работе
-
-Убедитесь, что в настройках в Project Structure указана JDK 17+ (ее мы ставили выше), Language level стоит не ниже 17.
+Убедитесь, что в настройках в Project Structure указана JDK 17+ (ее мы устанавливали выше), Language level стоит не ниже 17.
+Настройки должны примениться автоматически, но лучше перепроверить.
 
 ## Структура пакетов
 
