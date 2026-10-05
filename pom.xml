@@ -12,14 +12,19 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <src.dir>src/main/java</src.dir>
     </properties>
+
+    <build>
+        <sourceDirectory>${src.dir}</sourceDirectory>
+    </build>
 
     <profiles>
         <profile>
             <id>draft</id>
-            <build>
-                <sourceDirectory>${project.basedir}/_draft/src/main/java</sourceDirectory>
-            </build>
+            <properties>
+                <src.dir>${project.basedir}/_draft/src/main/java</src.dir>
+            </properties>
         </profile>
     </profiles>
 
